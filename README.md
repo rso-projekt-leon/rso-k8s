@@ -6,3 +6,6 @@
 
 Update routes to microservices:
 - `kubectl apply -f ingress.yaml`
+
+## ETCD
+- `kubectl apply -f etcd.yaml`

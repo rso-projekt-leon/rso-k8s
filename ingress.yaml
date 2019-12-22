@@ -17,4 +17,8 @@ spec:
             backend:
               serviceName: data-storage
               servicePort: 8082
+          - path: /data-catalog(/|$)(.*)
+            backend:
+              serviceName: data-catalog
+              servicePort: 8083
           
